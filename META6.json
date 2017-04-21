@@ -1,22 +1,35 @@
 {
-  "name" : "Unix::Groups",
-  "tags" : [ "devel", "authorisation", "system", "user" ],
-  "authors" : [ "Jonathan Stowe <jns+git@gellyfish.co.uk>" ],
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "auth" : "github:jonathanstowe",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Unix-Groups.git"
+  "name": "Unix::Groups",
+  "support": {
+    "source": "https://github.com/samcv/Unix-Groups",
+    "bugtracker": "https://github.com/samcv/Unix-Groups/issues"
   },
-  "source-url" : "git://github.com/jonathanstowe/Unix-Groups.git",
-  "perl" : "6.c",
-  "build-depends" : [ ],
-  "provides" : {
-     "Unix::Groups" : "lib/Unix/Groups.pm"
+  "source-url": "git://github.com/samcv/Unix-Groups.git",
+  "perl": "6.c",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "build-depends": [
+    
+  ],
+  "auth": "github:samcv",
+  "depends": [
+    
+  ],
+  "license": "Artistic-2.0",
+  "tags": [
+    "devel",
+    "authorisation",
+    "system",
+    "user"
+  ],
+  "provides": {
+    "Unix::Groups": "lib/Unix/Groups.pm"
   },
-  "depends" : [ ],
-  "test-depends" : [
+  "test-depends": [
     "Test"
   ],
-  "description" : "Access to the Unix group file in Perl 6",
-  "version" : "0.0.3"
+  "version": "0.0.3",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "description": "Access to the Unix group file in Perl 6"
 }
